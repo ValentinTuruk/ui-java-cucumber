@@ -4,11 +4,10 @@ import framework.BasePage;
 import onliner.pageobjects.pageFragments.navMenus.TopNavigationBar;
 
 public class HomePage extends BasePage {
-//    private static String xpathNewsContainer = "//div[@class='b-news-layer']";
-    private static String xpathAdvertisement = "//div[contains(@class, 'megabanner-layer')]";
+    private static String xpathNewsContainer = "//div[@class='b-news-layer']";
     
     public HomePage() {
-        super(xpathAdvertisement);
+        super(xpathNewsContainer);
         this.topNavigationBar = new TopNavigationBar();
     }
     
